@@ -1,1 +1,40 @@
-hello world
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tikko Construction</title>
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:
+                linear-gradient(
+                  rgba(137, 179, 0, 0.68),
+                  rgba(137, 179, 0, 0.68)
+                ),
+                url(background.jpg);
+            }
+
+        img {
+            width: calc(40vh + 10vw);
+            height: auto;
+        }
+        </style>
+    </head>
+    <body>
+        <img src="tikko.svg" />
+    </body>
+</html>
